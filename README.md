@@ -1,6 +1,15 @@
 # Student-Performance-Analysis-Data-Cleaning-Project
 Data cleaning project using student-mat.csv from UCI ML Repository. Analyzing student performance in secondary education, focusing on Mathematics. Includes grades, demographics, and social factors. Preparing data for analysis, showcasing best practices in data cleaning and preparation.
 
+## Table of Contents
+- [Project Description](#project-description)
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
 
 # Student Performance Analysis: Data Cleaning Project
@@ -67,27 +76,18 @@ The `student-mat.csv` dataset contains 395 entries and includes the following co
 For a detailed description of each column, refer to the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Student+Performance).
 
 ## File Structure
-The project directory is organized as follows:
-
-- **`README.md`**: This file provides an overview of the project, installation instructions, usage guidelines, and other relevant information.
-
-- **`data/`**: Directory containing datasets used in the project.
-  - `student-mat.csv`: Dataset from the UCI Machine Learning Repository, containing student performance data in Mathematics.
-
-- **`notebooks/`**: Directory containing Jupyter Notebooks for data analysis and visualization.
-  - `student_performance_uci_mlr_data_cleaning.ipynb`: Notebook for data cleaning tasks, preprocessing `student-mat.csv`.
-  - `student_performance_uci_mlr_exploratory_analysis.ipynb`: Notebook for exploring and visualizing student performance metrics.
- 
--- **`scripts/`**: Directory for Python scripts used in the project.
-  - `__init__.py`: Makes the directory a package.
-  - `data_preprocessing.py`: Script for preprocessing data before analysis.
-  - `visualization_utils.py`: Script containing utility functions for data visualization. 
-
-- **`LICENSE`**: File specifying the terms under which the project code can be used, modified, and distributed (typically under the MIT License).
-
-- **`requirements.txt`**: File listing Python dependencies required to run the project (`pandas`, `numpy`, `matplotlib`, etc.).
-
-- **`.gitignore`**: File specifying which files and directories to ignore in version control (e.g., virtual environment folders, sensitive information).
+student-performance-analysis/
+├── data/
+│   └── student-mat.csv
+├── notebooks/
+│   ├── data_cleaning_student_performance.ipynb
+│   └── exploratory_analysis_student_performance.ipynb
+├── scripts/
+│   ├── data_preprocessing.py
+│   └── visualization_utils.py
+├── .gitignore
+├── requirements.txt
+└── README.md
 
 Ensure you have the necessary datasets (`data/student-mat.csv`) and dependencies installed as outlined in the `README.md` before running the notebooks or scripts.
 
